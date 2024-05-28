@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #dark-mode-toggle {
+    padding: 5px 10px;
+  }
+  
+  .todo-app {
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  #todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .dark-mode .todo-item {
+    border-color: #666;
+  }
+  
